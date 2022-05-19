@@ -8,10 +8,13 @@
     color: black;
   }
   .secao-sobre{
-    /* background-color: #0dccff; */
     padding: 2rem;
    font-family: 'monospace';
    font-size: 2.1rem; 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
   }
 
   article{

@@ -1,9 +1,9 @@
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
     min-height: 650px;
-    width: 100%;
+    min-width: 840px;
     background-image: linear-gradient(to right, #0e0e0e, #140f23, #180f35, #1f0b47, #2a0058);
   }
 
@@ -16,8 +16,10 @@ header{
   }
    
   .foto-perfil{
-    display: flex;
-    justify-content: flex-end;
-    /* justify-content: flex-end; */
     text-align: center;
+  }
+
+  .title-sobre{
+    font-size: 3rem;
+    color:#414345;
   }

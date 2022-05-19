@@ -1,6 +1,9 @@
 nav{
     padding: 0.4rem;
     background-image: linear-gradient(to right, #0e0e0e, #140f23, #180f35, #1f0b47, #2a0058);
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
   }
 
   .linha-nav{
