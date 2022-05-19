@@ -1,0 +1,21 @@
+CORES
+
+#00cc66
+#0dccff
+#4760ff
+#5a01a7
+#1b1b32
+#000000
+#414345
+#232526
+#1e130c
+#9a8478
+
+LINEAR GRADIENTS
+
+background-image: linear-gradient(to bottom, #1b1b32, #272b60, #323d92, #3c4ec7, #4760ff);
+background-image: linear-gradient(to bottom, #051937, #001f57, #092275, #311e90, #5a01a7);
+background-image: linear-gradient(to bottom, #3c4c55, #275672, #005f92, #0065b2, #0068d0);
+background-image: linear-gradient(to right bottom, #404040, #3d3b4a, #383753, #31325d, #262e67, #1c2a63, #11275f, #00235b, #001e48, #001835, #041123, #000610);
+background-image: linear-gradient(to bottom, #4e00a4, #450090, #3c007d, #33006a, #2a0058); 
+background-image: linear-gradient(to bottom, #051937, #001f57, #092275, #311e90, #5a01a7); 

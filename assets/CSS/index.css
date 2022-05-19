@@ -1,221 +1,30 @@
+@import url('/assets/CSS/nav.css');
+@import url('/assets/CSS/perfil.css');
+@import url('/assets/CSS/sobre.css');
+@import url('/assets/CSS/secaoHabilidades.css');
+@import url('/assets/CSS/rodape.css');
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
 }
 
 .container{
   width: 100%;
   height: 100%;
- 
 } 
 
 /***PARTE CABEÇALHO NAV**/
-nav{
-  padding: 0.4rem;
-}
-
-.linha-nav{
-  width: 40%;
-}
-
-.linha-nav:hover{
-  transition:3s;
-  width: 50%;
-  background-color: #00cc66;
-}
-
-.list-contact-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 0.7rem;
-}
-
-.links-nav{
-  font-family: 'Verdana';
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  padding: 0.7rem;
-  text-shadow: 2px 2px 2px 2px ;
-  transition: all;
-}
-
-.links-nav:hover{
-  background-color: #00cc66;
-  transition: ease-in-out 0.5s;
-  border-radius: 100%;
-  padding: 0.9rem;
-}
-
-.contact-perfil-nav{
-  list-style: none;
-  margin: 0 25px 0 20px;
-} 
-
-hr{
-  border-bottom: 1px solid #00cc66;
-  opacity: 0.6;
-}
-
-p{
-  color: white;
-}
-
-.linha-horizontal{
-  border: 1px solid #00cc66;
-  width: 10%;
-  margin-top: 1rem ;
-}
- 
-
-
 
 /***FOTO***/
-
-.foto{
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
-  padding: 1rem 0;
-}
- 
-.foto-perfil{
-  text-align: center;
-}
- 
-
 
 
 /***SEÇÃO SOBRE***/
 
-article{
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-h1{
-  color: white;
-  text-align: center;
-  margin :0.5rem;
-} 
-
-.sobre-mim{
-  margin: 0;
-  text-align: center;
-  padding: 5px;
-  font-family: 'Arial';
-  font-size: 18px;
-  text-transform: lowercase;
-  color: white;
-}
-
-.secao-habilidades{
-  margin-right: 10%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.secao-sobre{
-  padding: 2rem;
- font-family: 'monospace';
- font-size: 2.1rem; 
-}
-
-
-
-
 /***SEÇÃO ESPECIALIDADES***/
-
-.secao-container{
-  width: 100%;
-  height: 80vh;
-}
-
-.secao-especialidades-icones{
-  width: 30px;
-  height: 30px; 
-}
-
-.secao-especialidades-logo{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.secao-especialidades-services{
-  padding: 2.2rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  width: 0;
-}
- 
-.secao-descricao{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.secao-especialidades-descricao{
-  text-align: center;
-  color: white;
-  font-family: 'Arial';
- 
-}
-
 
 
 /***RODAPÉ PERFIL***/
-footer{  
-  background-color: #5a01a7;
-  /*background-color: #1b1b32;*/
-  height: 25vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.copywrite{
-  color: white;
-  height: 20px;
-  width: 30px;
-}
 
-.logo{ 
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-}
 
-.logo-baner{
-  border: 2px solid cadetblue;
-  width: 20%;
-  height: 20%;
-  float: right;
-}
-
-.logo-social{
- display: flex;
- justify-content: center;
- align-items: center;
-}
-
-.linkedin-social{
-  width: 30px;
-}
-
-.github-social{
-  width: 30px;
-}
