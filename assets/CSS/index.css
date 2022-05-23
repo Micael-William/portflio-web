@@ -1,18 +1,17 @@
-@import url('/assets/CSS/nav.css');
-@import url('/assets/CSS/perfil.css');
+@import url('/assets/CSS/cabecalho.css');
 @import url('/assets/CSS/sobre.css');
 @import url('/assets/CSS/secaoHabilidades.css');
 @import url('/assets/CSS/rodape.css');
-
+@import url('/assets/CSS/normalize/normalize.css');
+@import url('/assets/variaveis-css/var.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Righteous&family=Roboto:wght@300&display=swap');
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container{
-  width: 100%;
-  height: 100%;
+ 
+  /* background-image: linear-gradient(to right bottom, #051937, #001c46, #001e55, #001f64, #071f72); */
 } 
 
 /***PARTE CABEÇALHO NAV**/

@@ -1,14 +1,14 @@
 footer{  
-    background-color: #1b1b32;
+  background-color: var(--color-font-roxo);
     height: 140px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* width: 100%; */ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.6px solid white;
+}
   
-  .copywrite{
-    color: white;
-    height: 20px;
-    width: 30px;
-  }
+.copywrite{
+  color: white;
+  
+}

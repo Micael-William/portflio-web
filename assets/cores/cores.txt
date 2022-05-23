@@ -1,21 +1,30 @@
+VARIAVEIS PARA REUSO EM PARTES DO CÓDIGO
+
 CORES
 
-#00cc66
-#0dccff
-#4760ff
-#5a01a7
-#1b1b32
-#000000
-#414345
-#232526
-#1e130c
-#9a8478
+--color-font-verde: #00cc66;
+--color-font-azul: #0dccff;
+--color-font-azul-claro: #4760ff;
+--color-font-roxo: #5a01a7;
+--color-font-preto-claro: #1b1b32;
+--color-font-preto-escuro: #000000;
+--color-font-cinza-claro: #414345;
+--color-font-cinza-escuro: #232526;
+--color-font-cinza-escuro: #9a8478;
+--color-font-branco: #FDF7FF;
+--color-font-azul-marinho: #342056;
 
-LINEAR GRADIENTS
+TIPOGRAFIAS
 
-background-image: linear-gradient(to bottom, #1b1b32, #272b60, #323d92, #3c4ec7, #4760ff);
-background-image: linear-gradient(to bottom, #051937, #001f57, #092275, #311e90, #5a01a7);
-background-image: linear-gradient(to bottom, #3c4c55, #275672, #005f92, #0065b2, #0068d0);
-background-image: linear-gradient(to right bottom, #404040, #3d3b4a, #383753, #31325d, #262e67, #1c2a63, #11275f, #00235b, #001e48, #001835, #041123, #000610);
-background-image: linear-gradient(to bottom, #4e00a4, #450090, #3c007d, #33006a, #2a0058); 
-background-image: linear-gradient(to bottom, #051937, #001f57, #092275, #311e90, #5a01a7); 
+--font-secao-sobre: 'Montserrat';
+ --font-nav-links: 'Verdana';   
+ --font-secao-habilidades: 'Arial';
+
+--font-nav-primario:'Montserrat', sans-serif;
+--font-nav-:'Montserrat', sans-serif;
+--font-nav- :'Noto Sans', sans-serif;
+--font-nav- :'Open Sans', sans-serif;
+--font-nav- :'Poppins', sans-serif;
+--font-nav-link :'Righteous';
+--font-nav- :'Roboto';
+--font-nav-: 'Cursive';

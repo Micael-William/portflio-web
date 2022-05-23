@@ -1,0 +1,14 @@
+:root{
+ --font-secao-sobre: 'Montserrat';
+ --font-nav-links: 'Verdana';   
+ --font-secao-habilidades: 'Arial';
+ --color-font-verde: #00cc66;
+    --color-font-azul: #0dccff;
+    --color-font-azul-claro: #4760ff;
+    --color-font-roxo: #5a01a7;
+    --color-font-preto-claro: #1b1b32;
+    --color-font-preto-escuro: #000000;
+    --color-font-cinza-claro: #414345;
+    --color-font-cinza-escuro: #232526;
+    --color-font-cinza-escuro: #9a8478;
+}
