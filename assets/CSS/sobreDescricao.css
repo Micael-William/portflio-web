@@ -1,0 +1,38 @@
+.secao-titulo-descricao{
+    text-align: center;
+    color: #fff;
+    line-height: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+  }
+
+.secao-descricao-quem-sou{
+font-family: var(--font-texto-titulo);
+padding: 10px 0; 
+color: #fff;
+text-align: center;
+}
+
+.secao-descricao-sobre{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #151515;
+  padding: 5rem;
+  height: 60%;
+  border: 1px solid  var(--color-font-azul-marinho);
+  box-shadow: 2px 2px 0 0;
+ 
+}
+
+  .secao-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 20px;
+    width: 340px;
+  }
+
+

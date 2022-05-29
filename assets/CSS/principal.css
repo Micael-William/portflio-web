@@ -1,19 +1,40 @@
 @import url('/assets/CSS/cabecalho.css');
-@import url('/assets/CSS/sobre.css');
 @import url('/assets/CSS/secaoHabilidades.css');
 @import url('/assets/CSS/rodape.css');
 @import url('/assets/CSS/normalize/normalize.css');
 @import url('/assets/variaveis-css/var.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Righteous&family=Roboto:wght@300&display=swap');
+@import url('/assets/CSS/animacao-scroll.css');
+@import url('/assets/CSS/secaoTituloSobre.css');
+@import url('/assets/CSS/sobreDescricao.css');
+
+
+
 body{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-.container{
- 
-  /* background-image: linear-gradient(to right bottom, #051937, #001c46, #001e55, #001f64, #071f72); */
-} 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #151515;
+}
+::-webkit-scrollbar-track{
+  background-color: #151515;
+  border-radius: 60px;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: rgba(101, 24, 180, 1);
+  border-radius: 60px;
+}
+
+
+main.secao-conteudo{
+  height: 90vh;
+  width: 100vw; 
+ 
+} 
 /***PARTE CABEÇALHO NAV**/
 
 /***FOTO***/
