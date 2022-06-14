@@ -44,23 +44,6 @@ transition: 0.3s all;
 color: var(--color-font-azulm);
 }
 
-.link-nav-contato{
-  border: 0.4px solid var(--color-font-azulm);
-  padding: 2px;
-  text-decoration: none;
-  border-radius: 10px;
-  color: #fff;
-  width: 120px;
-  font-family: var(--font-nav-links);
-  font-size: 18px;
-  text-align: center;
-  box-shadow: 0 0 2px 2px var(--color-font-roxo);
-}
-
-.link-nav-contato:hover{
-  background-color: var(--color-font-azulm) ;
-}
-
 .title-menu{
   width: 70px;
 }

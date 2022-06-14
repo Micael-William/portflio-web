@@ -1,16 +1,18 @@
 .secao-titulo-descricao{
-    text-align: center;
-    color: #fff;
-    line-height: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
-  }
+  color: #fff;
+  font-family: var(--font-texto-descricao);
+  font-size: 2rem;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-font-azul);
+}
 
 .secao-descricao-quem-sou{
 font-family: var(--font-texto-titulo);
-padding: 10px 0; 
+padding-top: 20px; 
 color: #fff;
 text-align: center;
+line-height: 100%;
+
 }
 
 .secao-descricao-sobre{ 
@@ -21,18 +23,38 @@ text-align: center;
   background-color: #151515;
   padding: 5rem;
   height: 60%;
-  border: 1px solid  var(--color-font-azul-marinho);
-  box-shadow: 2px 2px 0 0;
- 
 }
 
-  .secao-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 20px;
-    width: 340px;
-  }
+.secao-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 
+.secao-scrool{
+  display: none;
+}
 
+.foto{
+  width: 250px;
+  height: 250px;
+}
+
+.secao-texto-sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border: 1px solid transparent var(--color-font-azul);
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 2px var(--color-font-azul);
+  padding: 10px;  
+}
+
+.secao-texto-sobre:hover{
+  transition: 5s ease-in-out;
+  padding: 30px;
+  cursor: pointer;
+}
